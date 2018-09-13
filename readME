@@ -1,0 +1,35 @@
+BEFORE:
+make sure you have the following softwares
+python3 numpy sklearn
+R ggplot2 viridis cowplot
+
+
+Steps of using mulROCplayer
+1 prepare source file.(The format and details of the file are showed in the folowing)
+2 run mulRocPlayer.py
+
+
+(The only file you have to prepare, making clear of the format is essential to use this tool)
+Source file format:
+file name should be 'source.dat'
+line 1: sample number(represented by n)
+line 2: name of the columns of probability matrix(no blank in in the name and each of them is seperated by one blank)
+line 3->n+2:probability matrix(seperated by blank)
+line n+2->2*n+1:the real classification in probability matrix
+
+(If only images are requested, it is unnecessary for you to read the format of Rel file.)
+Rel file(the python code give out) format:
+file name rel.dat
+line 1: AUC of each ROC curve
+line 2: name of each class (the order is same as the following lines)
+line 3->2*m+2: FPR and TPR for each ROC in turn(that means one line is FPR and the next line is TPR.)
+
+Details:
+The id of class should start from 0.
+m represents the number of class.
+
+
+
+
+
+因秋季学期课程不够
