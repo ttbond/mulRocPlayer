@@ -5,7 +5,7 @@ R ggplot2 viridis cowplot
 
 
 Steps of using mulROCplayer
-1 prepare source file.(The format and details of the file are showed in the folowing)
+1 prepare source file.(The format and details of the file are showed in the following)
 2 run mulRocPlayer.py
 
 
@@ -27,9 +27,3 @@ line 3->2*m+2: FPR and TPR for each ROC in turn(that means one line is FPR and t
 Details:
 The id of class should start from 0.
 m represents the number of class.
-
-
-
-
-
-因秋季学期课程不够
